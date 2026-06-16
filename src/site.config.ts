@@ -14,7 +14,7 @@ export const SITE = {
     'Este atendimento não substitui acompanhamento médico ou psiquiátrico e não atende casos psiquiátricos complexos (esquizofrenia, autismo). Em caso de crise suicida, surto ou risco à vida, procure o hospital mais próximo ou ligue para o CVV (188).',
   waLink:
     'https://wa.me/5518981531919?text=Ol%C3%A1%2C%20Sylvia!%20Vi%20sua%20p%C3%A1gina%20e%20quero%20agendar%20a%20minha%20primeira%20sess%C3%A3o.',
-  videoUrl: 'https://www.youtube.com/embed/XXXXXXXXXXX',
+  videoUrl: 'https://www.youtube.com/embed/HDMHfQvVxak',
   fotoHero: '/foto-hero.jpg',
   fotoAbout: '/foto-about.jpg',
 }
