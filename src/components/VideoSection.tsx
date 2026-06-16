@@ -12,8 +12,9 @@ const COPY = {
   preText: 'Eu já estive exatamente onde você está agora. Esse vídeo conta como saí desse lugar e como eu conduzo quem chega comigo trazendo a mesma dor.',
   postText: 'O que eu mostro nessa conversa não é teoria. É a virada que eu vivi e o método que sustento todos os dias no atendimento.',
 }
-// Foto usada como thumbnail do vídeo (fallback no gradiente se faltar)
-const VIDEO_THUMB = SITE.fotoAbout
+// Foto usada como thumbnail do vídeo: foto dedicada (fotoVideo), distinta da bio/about.
+// Fallback pra fotoAbout se o cliente só tiver 2 fotos. Fallback final no gradiente.
+const VIDEO_THUMB = (SITE as Record<string, string>).fotoVideo || SITE.fotoAbout
 // ════════════════════════════════════════════════════════════════════
 
 export default function VideoSection() {
