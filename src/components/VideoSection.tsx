@@ -42,7 +42,7 @@ export default function VideoSection() {
               }}
             >
               {COPY.heading}{' '}
-              <em style={{ color: 'var(--color-secondary)' }}>{COPY.headingEm}</em>
+              <em style={{ color: 'var(--color-accent-on-dark)' }}>{COPY.headingEm}</em>
             </h2>
           </FadeIn>
 
